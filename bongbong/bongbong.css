@@ -1,0 +1,10 @@
+#bubbleCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1; /* Nằm dưới lớp nút bấm nhưng trên lớp nền */
+    background: transparent;
+    pointer-events: none; /* Rất quan trọng để ngón tay chạm xuyên qua nút bấm được */
+}
