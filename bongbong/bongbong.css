@@ -1,0 +1,10 @@
+#bubbleCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99999; /* Đẩy lên trên cùng để bong bóng bay đè lên trên nút bấm, logo */
+    background: transparent;
+    pointer-events: none; /* Giữ nguyên để chạm xuyên thấu xuống nút bấm bên dưới */
+}
