@@ -1,0 +1,9 @@
+#bubbleCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999999; /* Luôn nằm trên cùng để bắt cú click */
+    background: transparent; /* Giữ trong suốt để thấy web bên dưới */
+}
